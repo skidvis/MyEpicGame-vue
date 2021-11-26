@@ -29,9 +29,6 @@ const App = {
         this.runLogic();
     },
     methods: {
-        testMethod() {
-            console.log('do this');
-        },
         isLoaded(){
             console.log('This is a Vue 3.x implementation of the nft-game-starter project.');  
         },
