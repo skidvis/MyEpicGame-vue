@@ -7,6 +7,8 @@ I recently took a great course on [buildspace](https://app.buildspace.so/home) c
 Here's a video of the interface in action:
 https://youtu.be/7FuybnH82yY
 
+Try it out at: [http://www.sharkjets.com/MyEpicGame-vue/](http://www.sharkjets.com/MyEpicGame-vue/)
+
 
 also available in vanilla js @ [https://github.com/skidvis/MyEpicGame-vanillajs](https://github.com/skidvis/MyEpicGame-vanillajs)
 
