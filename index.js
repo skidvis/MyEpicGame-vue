@@ -26,6 +26,7 @@ const App = {
     },
     mounted(){
         this.isLoaded();
+        this.runLogic();
     },
     methods: {
         testMethod() {
