@@ -59,7 +59,7 @@ const App = {
                 this.showSwal('loading..');
         
                 //if not authenticated, show login button
-                if(this.currentAccount == null) this.showLogin();
+                if(this.currentAccount == null) this.currentSection = 'login';
                 
                 //if authenticated, check for existing NFT and..
                 if(this.currentAccount != null) this.fetchNFTMeta().then(()=> { 
