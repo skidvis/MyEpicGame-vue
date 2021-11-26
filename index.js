@@ -14,6 +14,7 @@ const App = {
     data() {
       return {
         currentSection: 'login',
+        CONTRACT_ADDRESS: null,
         characters: null,
         currentAccount: null,
         characterNFT: null,
@@ -222,6 +223,7 @@ const App = {
             const provider = new ethers.providers.Web3Provider(window.ethereum);
             const signer = provider.getSigner();
             gameContract = new ethers.Contract(CONTRACT_ADDRESS,myEpicGame.abi,signer);
+            this.CONTRACT_ADDRESS = CONTRACT_ADDRESS;
         
             // listen to emit events
             gameContract.removeAllListeners();

@@ -45,7 +45,7 @@
             <div v-if="currentSection == 'arena' && boss !== null && characterNFT !== null" class="row section" id="arena-section">
                 <div class="col" id="player-nft">
                     <ul>
-                        <li class="player-name">{{characterNFT.name}}</li>
+                        <li class="player-name">{{characterNFT.name}} - <a target="new" v-bind:href="'https://testnets.opensea.io/assets/' + CONTRACT_ADDRESS + '/' + characterNFT.tokenId">opensea</a></li>
                         <li><img class="player-image" v-bind:src="characterNFT.imageUri" /></li>
                         <li class="player-hp">{{characterNFT.hp}}/{{characterNFT.maxHp}}</li>
                     </ul>
